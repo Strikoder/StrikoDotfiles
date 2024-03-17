@@ -25,4 +25,8 @@ git clone git@github.com:strikoder/StrikoDotfiles.git --recursive
 cd StrikoDotfiles && ./install
 ```
 
+## step 3: programs installation
+
+in progress
+
 This will set up your environment according to the configurations specified in my dotfiles. The `--recursive` option ensures that any submodules are also cloned.
