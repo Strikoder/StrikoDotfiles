@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshenv: zshenv
+    ~/.config/kitty: kitty
+    ~/.config/zsh: zsh
+    ~/.config/nvim: nvim
+    ~/.config/awesome: awesome
+    ~/.config/tmux: tmux
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+
