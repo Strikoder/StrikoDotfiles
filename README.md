@@ -11,6 +11,10 @@ Quickly set up your environment using my personal dotfiles. Follow the steps bel
   ```bash
   sudo dnf install git
   ```
+- For **Arch BTW**:
+  ```bash
+  sudo pacman -Sy git
+  ```
 - For **macOS/ Windows**:
   GFYS
   
